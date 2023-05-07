@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    /* background: rgb(30, 29, 29); */
+    background: url('img/contactbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.map{
+    position: absolute;
+    object-fit: contain;
+    filter: grayscale(0.7) contrast(1.2) opacity(1);
+    inset: 0;
+}
+
+.bg-transparent p{
+    color: white;
+}
+.text-sm{
+    color: whitesmoke !important;
+}
+/* 
+.text-space{
+    background: transparent !important;
+    border:none;
+    outline: none;
+    color: white !important;
+    border-bottom: 2px solid white;
+
+}
+.text-space:active{
+    content: "";
+    background: transparent !important;
+    border:none !important;
+    outline: 0;
+    border-bottom: 2px solid white;
+
+} */
+
+
+
+.floor , .floor1{
+    background-color: black !important;
+}
+
+.white{
+    color: white !important;
+}
+
+.logo{
+    height: 7vh;
+    border-radius: 100%;
+    width: 3.4vw;
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.line-space{
+    line-height: 2.2em !important;
+}
+
+body{
+    /* background: rgb(30, 29, 29); */
+    background: url('img/contactbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+
+.mb-8{
+    line-height: 4vh ;
+}
+.text-sm{
+    color: whitesmoke !important;
+}
+
+.trainer{
+    background-color: white;
+}
+
+.floor , .floor1{
+    background-color: black !important;
+}
+
+.white{
+    color: white !important;
+}
+
+.logo{
+    height: 7vh;
+    border-radius: 100%;
+    width: 3.4vw;
+}
